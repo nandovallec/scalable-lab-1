@@ -1,7 +1,7 @@
 import os
 import modal
     
-LOCAL=False
+LOCAL=True
 
 if LOCAL == False:
    stub = modal.Stub()
@@ -27,7 +27,7 @@ def g():
     fs = project.get_feature_store()
     
     mr = project.get_model_registry()
-    model = mr.get_model("iris_modal", version=2)
+    model = mr.get_model("iris_modal", version=4)
     model_dir = model.download()
     model = joblib.load(model_dir + "/iris_model.pkl")
     

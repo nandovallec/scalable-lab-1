@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dba352-f1cd-4e83-a6aa-ee51f9f84196" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_iris/iris-training-pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_iris/iris-training-pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_iris/iris_model/iris_model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/project_iris/iris_model/iris_model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_iris/iris-batch-inference-pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_iris/iris-batch-inference-pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_iris/latest_iris.png" beforeDir="false" afterPath="$PROJECT_DIR$/project_iris/latest_iris.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_titanic/titanic" beforeDir="false" afterPath="$PROJECT_DIR$/project_titanic/titanic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_titanic/titanic-feature-pipeline-daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_titanic/titanic-feature-pipeline-daily.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_titanic/titanic-monitor" beforeDir="false" afterPath="$PROJECT_DIR$/project_titanic/titanic-monitor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_titanic/titanic-monitor/.hw_api_key" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project_titanic/titanic/.hw_api_key" beforeDir="false" />
@@ -17,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project_iris/iris" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="76298fa4-c22c-4dc1-b342-139629a6d3d2" />
   <component name="ProjectId" id="2HP0SXkLN8xmIguXhMaLa4PtaVE" />
@@ -32,7 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../XAI/XAI" />
   </component>
-  <component name="RunManager" selected="Python.app (2)">
+  <component name="RunManager" selected="Python.titanic-feature-pipeline-daily">
     <configuration name="app (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,28 +77,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iris-feature-pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_iris" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_iris/iris-feature-pipeline.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="iris-training-pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +91,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_iris/iris-training-pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="titanic-batch-inference-pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_titanic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_titanic/titanic-batch-inference-pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="titanic-feature-pipeline-daily" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_titanic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_titanic/titanic-feature-pipeline-daily.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,35 +165,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="titanic-training-pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_titanic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_titanic/titanic-training-pipeline.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.titanic-feature-pipeline-daily" />
+        <item itemvalue="Python.titanic-batch-inference-pipeline" />
+        <item itemvalue="Python.iris-batch-inference-pipeline" />
         <item itemvalue="Python.app (2)" />
         <item itemvalue="Python.iris-training-pipeline" />
-        <item itemvalue="Python.iris-feature-pipeline" />
-        <item itemvalue="Python.iris-batch-inference-pipeline" />
-        <item itemvalue="Python.titanic-training-pipeline" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +189,7 @@
       <workItem from="1668271823022" duration="3269000" />
       <workItem from="1668354489567" duration="8801000" />
       <workItem from="1668364470709" duration="23000" />
-      <workItem from="1669317381007" duration="829000" />
+      <workItem from="1669317381007" duration="3246000" />
     </task>
     <servers />
   </component>
@@ -201,46 +201,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668173476761" />
-    <state x="718" y="216" width="989" height="607" key="#xdebugger.evaluate" timestamp="1668358805925">
+    <state x="892" y="193" width="989" height="607" key="#xdebugger.evaluate" timestamp="1669327225006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="216" width="989" height="607" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1668358805925" />
+    <state x="892" y="193" width="989" height="607" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1669327225006" />
     <state x="743" y="278" width="426" height="477" key="FileChooserDialogImpl" timestamp="1668364491024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="278" width="426" height="477" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1668364491023" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1669318070158">
+    <state width="1878" height="404" key="GridCell.Tab.0.bottom" timestamp="1669327265205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1669318070158" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1669318070157">
+    <state width="1878" height="404" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1669327265205" />
+    <state width="1878" height="404" key="GridCell.Tab.0.center" timestamp="1669327265205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1669318070157" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1669318070157">
+    <state width="1878" height="404" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1669327265205" />
+    <state width="1878" height="404" key="GridCell.Tab.0.left" timestamp="1669327265204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1669318070157" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1669318070157">
+    <state width="1878" height="404" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1669327265204" />
+    <state width="1878" height="404" key="GridCell.Tab.0.right" timestamp="1669327265205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1669318070157" />
-    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1668364128913">
+    <state width="1878" height="404" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1669327265205" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1669327245860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1668364128913" />
-    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1668364128913">
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1669327245860" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1669327245859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1668364128913" />
-    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1668364128913">
+    <state width="1878" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1669327245859" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1669327245859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1668364128913" />
-    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1668364128913">
+    <state width="1878" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1669327245859" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1669327245859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1668364128913" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1669327245859" />
     <state x="623" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1668361841275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,22 +265,28 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project_iris/iris-batch-inference-pipeline.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/project_titanic/titanic-batch-inference-pipeline.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="12" />
+          <line>54</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab1$titanic_training_pipeline.coverage" NAME="titanic-training-pipeline Coverage Results" MODIFIED="1668363407930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic" />
-    <SUITE FILE_PATH="coverage/lab1$iris_batch_inference_pipeline.coverage" NAME="iris-batch-inference-pipeline Coverage Results" MODIFIED="1668363723277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_iris" />
-    <SUITE FILE_PATH="coverage/lab1$titanic_batch_inference_pipeline.coverage" NAME="titanic-batch-inference-pipeline Coverage Results" MODIFIED="1668363268757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic" />
+    <SUITE FILE_PATH="coverage/lab1$iris_batch_inference_pipeline.coverage" NAME="iris-batch-inference-pipeline Coverage Results" MODIFIED="1669326120098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_iris" />
+    <SUITE FILE_PATH="coverage/lab1$titanic_batch_inference_pipeline.coverage" NAME="titanic-batch-inference-pipeline Coverage Results" MODIFIED="1669326893149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic" />
     <SUITE FILE_PATH="coverage/lab1$titanic_feature_pipeline.coverage" NAME="titanic-feature-pipeline Coverage Results" MODIFIED="1668274291459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic" />
     <SUITE FILE_PATH="coverage/lab1$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1668362722996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic/titanic-monitor" />
     <SUITE FILE_PATH="coverage/lab1$app.coverage" NAME="app Coverage Results" MODIFIED="1668362287254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic/titanic" />
     <SUITE FILE_PATH="coverage/lab1$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1669318070147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_iris/iris" />
     <SUITE FILE_PATH="coverage/lab1$iris_feature_pipeline.coverage" NAME="iris-feature-pipeline Coverage Results" MODIFIED="1669317948764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_iris" />
     <SUITE FILE_PATH="coverage/lab1$iris_training_pipeline.coverage" NAME="iris-training-pipeline Coverage Results" MODIFIED="1669317995390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_iris" />
+    <SUITE FILE_PATH="coverage/lab1$titanic_feature_pipeline_daily.coverage" NAME="titanic-feature-pipeline-daily Coverage Results" MODIFIED="1669327265192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_titanic" />
   </component>
 </project>
