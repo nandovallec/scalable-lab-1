@@ -1,0 +1,16 @@
+import os
+
+import modal
+
+stub = modal.Stub()
+
+
+@stub.function(secret=modal.Secret.from_name("scalable-1"))
+def f():
+    print(os.environ["ScalableLab1"])
+
+
+if __name__ == "__main__":
+    with stub.run():
+        f()
+
